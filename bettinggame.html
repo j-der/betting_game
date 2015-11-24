@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Poiret+One|PT+Sans:400,400italic' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bettinggame.js"></script>
+  </head>
+  <body>
+  <h1>Betting Game</h1>
+    <p class="intro">Welcome to a simple gambling game that uses <em>Javascript</em>, <em>jQuery</em>, and fake money!</p>
+
+    <p class = "main">Here's how it works:<br/>
+    You start off with $100 and will be asked to place a bet (between $5 and $10) on a number between 1 and 10. The computer generates a number at random and if you get the number exactly, you <em>double</em> your bet! If you're only off by 1, you keep your bet. Otherwise, you lose the bet. As in real life, the game is over when your money runs out.</p>
+
+    <!-- <p class = "main">Ready to play? Click the button below to get started.</p>
+    <button>LET'S GAMBLE</button> -->
+
+    <div id="form-div">
+      <form method='post' id="play">
+        <input name="bet" type="text" placeholder="Place a bet" id="bet"/>
+        <input name="guess" type="text" placeholder="Guess a number!" id="guess"/>
+      </form>
+      <button id="gamble">LET'S GAMBLE!</button>
+    </div>
+
+    <div id="status_update">
+   <!--    <p id="return_text">This is some text</p> -->
+    </div>
+
+    <button id="reveal">REVEAL THE LUCKY NUMBER</button>
+    <div id="show_number">
+
+    </div>
+
+    <h2>Your money</h2>
+    <div class="money"><p id="dollars">$50</p></div>
+  </body>
+</html>
+
