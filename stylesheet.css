@@ -1,3 +1,7 @@
+body {
+  padding: 35px 35px 35px 35px;
+}
+
 h1 {
   font-family: 'Poiret One', cursive;
   font-size: 80px;
@@ -17,4 +21,15 @@ h2 {
 p {
   font-family: 'PT Sans', sans-serif;
   font-size: 14px;
+}
+
+button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: #6939A3;
+  border-color: #6939A3;
+  border-radius: 2px;
+  color: white;
+  box-shadow: 2px 2px 2px #aaa;
+  border-style: solid;
 }
